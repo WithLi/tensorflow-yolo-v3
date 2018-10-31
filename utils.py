@@ -190,3 +190,7 @@ def convert_to_original_size(box, size, original_size):
     ratio = original_size / size
     box = box.reshape(2, 2) * ratio
     return list(box.reshape(-1))
+
+
+def loss():
+    pass
